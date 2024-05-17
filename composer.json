@@ -12,7 +12,7 @@
         "azuyalabs/yasumi": "^1.8.0",
         "php-http/curl-client": "^1.7.0",
         "dhl/module-label-status": "dev-legacy-update-shipping-methods",
-        "dhl/lib-shipping-mx": "^0.11.1",
+        "dhl/lib-shipping-mx": "dev-legacy-update-shipping-methods",
         "dhl/sdk-api-parcel-management": "^1.0.0",
         "magento/module-catalog-inventory": "^100.2.3",
         "magento/module-config": "^101.0.4",
