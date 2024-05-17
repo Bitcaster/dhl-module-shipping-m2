@@ -62,8 +62,10 @@ class Procedure implements \Magento\Framework\Option\ArrayInterface
     {
         return [
             ShippingProducts::PROCEDURE_NATIONAL                => __('DHL Paket: V01PAK'),
+            ShippingProducts::PROCEDURE_WARENPOST_NATIONAL      => __('DHL Warenpost: V62WP'),
             ShippingProducts::PROCEDURE_CONNECT                 => __('DHL Paket Connect: V55PAK'),
             ShippingProducts::PROCEDURE_INTERNATIONAL           => __('DHL Paket International: V53WPAK'),
+            ShippingProducts::PROCEDURE_WARENPOST_INTERNATIONAL => __('DHL Warenpost International: V66WPI'),
             ShippingProducts::PROCEDURE_PAKET_AUSTRIA           => __('DHL PAKET Austria: V86PARCEL'),
             ShippingProducts::PROCEDURE_PAKET_CONNECT           => __('DHL PAKET Connect: V87PARCEL'),
             ShippingProducts::PROCEDURE_PAKET_INTERNATIONAL     => __('DHL PAKET International: V82PARCEL'),
